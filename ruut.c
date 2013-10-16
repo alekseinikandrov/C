@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (int argc, char *argv[]) {
-	printf("\n\t Ruutude tabel \n");	
+	printf("\n\tRuutude tabel\n");	
 	int a; 
 	for(a=1; a<21; a++)
 	{
