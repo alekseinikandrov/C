@@ -6,5 +6,5 @@ int main (int argc, char *argv[]) {
 	{
 		printf("%d %d\n", a, a*a);
 	}
-		return 0;	
+	return 0;	
 }
