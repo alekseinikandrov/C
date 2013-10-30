@@ -30,7 +30,7 @@ int main (int argc, char *argv[]){
 		i = i+1;
 		a = b;
 	}
-	printf("\n   Kogupindala S = %f    \n\n", S);
+	printf("\n Kogupindala    S=%f \n\n", S);
 		
 	return 0;
 }
