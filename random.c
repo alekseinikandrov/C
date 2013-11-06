@@ -25,7 +25,7 @@ int main(int argc, char *argv[]){
         rk += nr [i] * nr [i]; //ruutude summa arvutamine
     }
     
-    printf("\nRuutkeskmine = %f\n", rk / 100); //ruutudekeskmise arvutamine
+    printf("\nRuutkeskmine = %f\n", rk / 100); //ruutudekeskmise arvutus
     
     return 0;
 }
