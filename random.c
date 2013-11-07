@@ -25,6 +25,7 @@ int main(int argc, char *argv[]){
         rk += nr [i] * nr [i]; //ruutude summa arvutamine
     }
     
+    rk = sqrt(rk / 100);
     printf("\nRuutkeskmine = %f\n", rk / 100); //ruutudekeskmise arvutus
     
     return 0;
