@@ -17,3 +17,26 @@ int main (int argc, char *argv[]) {
 	}
 	return 0;
 }
+
+include <stdio.h>
+
+int main(int argc, char *argv[]) {
+	
+	int y;
+	int i;
+	int f;
+	int x;
+
+	for(y=1; y<=3; y++){
+		for(x=1; x<=3; x++){
+			f=1;
+			for(i=x*y; i>1; i--){
+				f=f*i;
+			}
+			printf("%03d ", f);
+		}
+		printf("\n");
+	}
+	
+	return 0;
+}
