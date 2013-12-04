@@ -6,7 +6,10 @@ int min (int a, int b)
     {
         return a;
     }
-    return b;
+    else
+    {
+        return b;
+    }
 }
 
 int main(int argc, char *argv[])
