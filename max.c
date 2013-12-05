@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int min (int a, int b)
+int max (int a, int b)
 {
     if (a > b)
     {
@@ -8,7 +8,7 @@ int min (int a, int b)
     }
     else
     {
-    return b;
+        return b;
     }
 }
 
@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     int c = 12;
 
     {
-        printf("%d ja 6 >=%d\n", c, min(c, 6));
+        printf("%d ja 6 >=%d\n", c, max(c, 6));
     }
     return 0;
 }
