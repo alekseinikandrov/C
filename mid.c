@@ -2,8 +2,7 @@
 
 double mid(double a , double b, double c)
 {
-    c = (a + b) / 2;
-    return c;
+    return c = (a + b) / 2;
 }
 
 int main(int argc, char *argv[])
