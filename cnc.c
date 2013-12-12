@@ -3,12 +3,12 @@
 float gcode(float x, float y, float w, float h){
 	printf("G X GoTo %f\n", x);
 	printf("G Y GoTo %f\n", y);
-	printf("G Z Down %f\n", z);
+	printf("G Z Down %f\n");
 	printf("G X Move %f\n", w);
 	printf("G Y Move %f\n", h);
 	printf("G X Move %f\n", -w);
 	printf("G Y Move %f\n", -h);
-	printf("G Z Up   %f\n", Z);
+	printf("G Z Up   %f\n");
 }
 
 int main(int argc, char *argv[]){
